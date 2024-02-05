@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	padding: 0;
+	padding: 10px;
 	color: white;
 	background-color: black;
 	padding-bottom: 3rem;
@@ -10,6 +10,7 @@ body {
 }
 
 #code-text {
+	padding: 10px;
 	background-color: grey;
 	border: 3px solid white;
 	font-size: 16px;
@@ -17,8 +18,16 @@ body {
 
 #homepage-code {
 	display: inline-block;
+	padding-right: 10px;
 }
 
 #profile-photo {
 	content: url("https://hitodenashi.github.io/Images/bun.jpg");
+	width: 300px;
+}
+
+#content-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
