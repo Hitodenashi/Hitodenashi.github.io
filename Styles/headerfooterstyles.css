@@ -1,0 +1,32 @@
+/* header styles */
+#header-text, #header-nav {
+	text-align: center;
+}
+
+#header-nav {
+	padding: 10px;
+}
+
+.nav_item {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* footer styles */
+#footer-top-button {
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	border: 3px solid purple;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
